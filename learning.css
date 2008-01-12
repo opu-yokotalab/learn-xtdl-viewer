@@ -1,0 +1,95 @@
+body{
+  background-color:white;
+  text-align:left;
+}
+
+div.menuList{
+  margin:0;padding:0;height:23px;
+}
+
+div.menuList form{
+  float:left;
+}
+
+div.menu_ope{
+  width:95%;height:80px;
+}
+
+div.message{
+  padding:8px;
+  margin:5px;
+  background-color:ghostwhite;
+  border:solid navy 2px;
+  width:480px;
+}
+
+div.table_of_contents{
+  margin-top:15px;
+  background-color:ghostwhite;
+  border:double navy 7px;
+  width:240px;
+  float:left;
+}
+
+div.content{
+  margin-top:15px;
+  padding:10px;
+  background-color:ghostwhite;
+  border:solid navy 5px;
+  margin-left:260px;
+  width:75%;
+}
+
+
+.deco_01{
+  font-weight:bold;
+  font-size:1.0em;
+  background-color:lavender;
+  margin:10px;
+  padding:5px;
+}
+
+.list{
+  font-weight:bold;
+  font-size:1.0em;
+  background-color:lavender;
+  margin:10px;
+}
+
+.fig{
+  font-size:17px;
+  font-weight:bold;
+  text-align:center;
+  margin:20px;
+}
+
+h2{
+  padding-left:7px;
+  border-color:cornflowerblue;
+  border-left-style:solid;
+  border-left-width:8px;
+  border-bottom-style:solid;
+  border-bottom-width:4px;
+}
+
+h3{
+  width:80%;
+  padding-left:5px;
+  border-color:cornflowerblue;
+  border-left-style:solid;
+  border-left-width:5px;
+  border-bottom-style:solid;
+  border-bottom-width:3px;
+}
+
+blockquote {
+	margin: 5px;
+	padding: 5px;
+	background: #eeeeff;
+	margin-left: 4em;
+	width: 30em;
+	text-align:left;
+	border: 1px dotted gray;
+	font-family: ariel;
+	color: #000033;
+}

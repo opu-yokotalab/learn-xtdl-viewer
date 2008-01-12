@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="ja"><head>
+<meta content="text/html; charset=Shift_JIS" http-equiv="content-type"><title>X-TDL Viewer</title></head>
+<body>
+<h2>X-TDL Viewer <small>Ver. 0.2</small></h2>
+教材リソースリポジトリに登録してある、X-TDLリソースの閲覧ができます。作成した教材の確認に利用して下さい。<br>
+エラー処理とかあまり真面目にやってません。やさしく使ってね。<br>
+<br>
+ノードIDを指定すると、指定したノード(構造記述要素 or 意味記述要素)以下の部分木が提示されます。<br>
+入力しなければ、ルート要素以下を全て提示します。<br>
+<br>
+教材リソースリポジトリは<a href="http://adel.c.oka-pu.ac.jp:8080/exist/index.xml" target="_blank">こちら</a>です。(ログインID：admin　パス：無し)<br>
+<br>
+<div style="border: 3px inset midnightblue; padding: 10px; position: relative; left: 30px; width: 500px; background-color: GhostWhite;">
+<form action="xtdl-v.cgi" method="get"><label style="font-weight: bold;">作
+業フォルダ:</label>&nbsp;&nbsp;&nbsp; <input size="30" name="dir"><br>
+<br>
+<label style="font-weight: bold;">教材リソース名:</label>
+<input size="45" name="src_name"><br>
+<small>(拡張子の前までを入力)</small><br>
+<br>
+<label style="font-weight: bold;">ノードID：</label>&nbsp;&nbsp;&nbsp;
+　　　<input maxlength="15" size="15" name="id"><br>
+<br>
+<input value="送信" type="submit"></form>
+</div>
+</body></html>
